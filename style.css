@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-1{
+    height: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-con{
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 1px;
+}
+.nav{
+    height: 70px;
+    width: 98%;
+    display: flex;
+    justify-content: right;
+    
+}
+.dropdown-con{
+    height: 1px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    transition: 600ms;
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+    overflow-y: hidden;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+}
+.dropdown-con img{
+    width: 50px;
+    height: 50px;
+}
+.dropdown-con .img{
+    width: 50px;
+    height: 50px;
+}
+.div-1-con{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 140vh;
+    background-image: url(./images/images\ -\ 2025-02-24T000419.989.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(53, 53, 53);
+    background-blend-mode: multiply;
+}
+.div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div-1 img{
+    width: 500px;
+    height: 500px;
+}
+.a{
+    color: white;
+    font-size: 150px;
+}
+.b{
+    color: white;
+    font-size: 70px;
+}
+.div-1 button{
+    background-color: gold;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 110px;
+    border: 1px solid gold;
+    font-weight: 600;
+    transition: 400ms;
+}
+.div-1 button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: gold;
+}
+.div-2-con{
+    height: 120vh;
+    width: 100%;
+    background-image: url(./images/Screenshot_20250223-200434.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(64, 64, 60);
+    background-blend-mode: multiply;
+    
+}
+.div-2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.infinix{
+    color: white;
+    font-size: 100px;
+}
+.div-2 button{
+    background-color: gold;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 110px;
+    border: 1px solid gold;
+    font-weight: 600;
+    transition: 400ms;
+}
+.div-2 button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: gold;
+}
+.iphone{
+    color: white;
+    font-size: 100px;
+}
+.div-3-con{
+    height: 120vh;
+    width: 100%;
+    background-image: url(./images/images\ -\ 2025-02-24T002044.233.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(80, 81, 79);
+    background-blend-mode: multiply;
+}
+.div-3{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.div-3 button{
+    background-color: gold;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 110px;
+    border: 1px solid gold;
+    font-weight: 600;
+    transition: 400ms;
+}
+.div-3 button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: gold;
+}
+.tecno{
+    color: white;
+    font-size: 100px;
+}
+.div-4-con{
+    height: 120vh;
+    width: 100;
+    background-image: url(./images/Screenshot_20250223-195558.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(108, 106, 106);
+    background-blend-mode: multiply;
+}
+.div-4{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.div-4 button{
+    background-color: gold;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 110px;
+    border: 1px solid gold;
+    font-weight: 600;
+    transition: 400ms;
+}
+.div-4 button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: gold;
+}
+.itel{
+    color: white;
+    font-size: 100px;
+}
+.div-5-con{
+    height: 120vh;
+    width: 100;
+    background-image: url(./images/Screenshot_20250223-201329.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(86, 84, 84);
+    background-blend-mode: multiply;
+}
+.div-5{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.div-5 button{
+    background-color: gold;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 110px;
+    border: 1px solid gold;
+    font-weight: 600;
+    transition: 600ms;
+}
+.div-5 button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: gold;
+}
