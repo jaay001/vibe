@@ -17,6 +17,9 @@
     font-size: 30px;
     font-weight: 600;
 }
+header{
+    font-size: 50px;
+}
 .nav-1{
     height: 50px;
     font-size: 40px;
@@ -81,9 +84,6 @@ ul{
     justify-content: center;
     align-items: center;
     background-color: orange;
-}
-header{
-    font-size: 50px;
 }
 .name{
     width: 98%;
@@ -465,8 +465,6 @@ h1{
 }
 
 
-
-
 @media(max-width: 1000px){
     .price button{
         width: 100%;
@@ -596,6 +594,3 @@ h1{
         flex-direction: column;
     }
 }
-
-
-    
